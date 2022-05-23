@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="decription" content="підпис під текстом сайту в пошуку гугл">
+	<meta name="keywords" content="сторінка, веб-сайт, і т.д.">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="schortcut icon" href="assets/img/dribbble.svg">
+	<title>Moderna</title>
+</head>
+<body>
+
+	<header class="header">
+		<nav class="header__menu anchor-click">
+			<ul>
+				<li><a href="#about" class="defaultBTN">About me</a></li>
+				<li><a href="#skills" class="defaultBTN">My skills</a></li>
+				<li><a href="#works" class="defaultBTN">My works</a></li>
+			</ul>
+		</nav>
+		<form class="dark__mode-form shadow">
+			<button
+				class="dark__mode-button"
+				type="text"
+				class="input"
+				autocomplete="off"
+				onclick="dark()"
+			>
+				<img src="assets/img/moon.svg" alt="dark">
+			</button>
+			<button
+				class="dark__mode-button"
+				type="text"
+				class="input"
+				autocomplete="off"
+				onclick="white()"
+			>
+				<img src="assets/img/sun.svg" alt="light">
+			</button>
+		</form>
+		<div class="header__menu-burger">
+			<span></span>
+		</div>
+	</header>
+
+	<div class="content shadow">
+		<div class="about shadow">
+			<a href="#" class="anchor" id="about"></a>
+			<div class="about__wrapper">
+				<div class="about__img shadow">
+					<img src="assets/img/me.jpg" alt="error">
+				</div>
+			</div>
+			<div class="about__text">
+				<p>Hello i am 18 years old</p>
+				<p>I'm still studying, but I'm already successful in practice. I know HTML, CSS, a little JS. I like to ride a bike and play computer games. At the moment I live in Ukraine in the city of Ternopil. I study at ZUNU (Western Ukrainian National University) in the 4th year of college, majoring in computer engineering.</p>
+			</div>
+			<div class="about__anchors anchor-click">
+				<a href="#skills" class="defaultBTN">My skills</a>
+				<a href="#works" class="defaultBTN">My works</a>
+			</div>
+		</div>
+	
+		<div class="skills">
+			<a href="#" class="anchor" id="skills"></a>
+			<div class="skills__item">
+				<div class="skills__img">
+					<img src="assets/img/html.svg" alt="error">
+				</div>
+				<div class="skills__rating">
+					<span><img src="assets/img/star-checked.svg" alt="error"></span>
+					<span><img src="assets/img/star-checked.svg" alt="error"></span>
+					<span><img src="assets/img/star-checked.svg" alt="error"></span>
+					<span><img src="assets/img/star-checked.svg" alt="error"></span>
+					<span><img src="assets/img/star.svg" alt="error"></span>
+				</div>
+			</div>
+			<div class="skills__item">
+				<div class="skills__img">
+					<img src="assets/img/css.svg" alt="error">
+				</div>
+				<div class="skills__rating">
+					<span><img src="assets/img/star-checked.svg" alt="error"></span>
+					<span><img src="assets/img/star-checked.svg" alt="error"></span>
+					<span><img src="assets/img/star-checked.svg" alt="error"></span>
+					<span><img src="assets/img/star-checked.svg" alt="error"></span>
+					<span><img src="assets/img/star.svg" alt="error"></span>
+				</div>
+			</div>
+			<div class="skills__item">
+				<div class="skills__img">
+					<img src="assets/img/js.svg" alt="error">
+				</div>
+				<div class="skills__rating">
+					<span><img src="assets/img/star-checked.svg" alt="error"></span>
+					<span><img src="assets/img/star-checked.svg" alt="error"></span>
+					<span><img src="assets/img/star.svg" alt="error"></span>
+					<span><img src="assets/img/star.svg" alt="error"></span>
+					<span><img src="assets/img/star.svg" alt="error"></span>
+				</div>
+			</div><div class="skills__item">
+				<div class="skills__img">
+					<img src="assets/img/sass.svg" alt="error">
+				</div>
+				<div class="skills__rating">
+					<span><img src="assets/img/star-checked.svg" alt="error"></span>
+					<span><img src="assets/img/star-checked.svg" alt="error"></span>
+					<span><img src="assets/img/star-checked.svg" alt="error"></span>
+					<span><img src="assets/img/star.svg" alt="error"></span>
+					<span><img src="assets/img/star.svg" alt="error"></span>
+				</div>
+			</div>
+		</div>
+		
+		<div class="works">
+			<a href="#" class="anchor" id="works"></a>
+			<div class="works__wrapper">
+				<a href="https://badyandriy.github.io/tajam/" class="works__item shadow">
+					<div class="works__img">
+						<img src="assets/img/tajem.jpg" alt="error">
+						<div class="works__shadow"></div>
+					</div>
+				</a>
+			</div>
+			<div class="works__wrapper">
+				<a href="https://badyandriy.github.io/tajam/" class="works__item shadow">
+					<div class="works__img">
+						<img src="assets/img/tajem.jpg" alt="error">
+						<div class="works__shadow"></div>
+					</div>
+				</a>
+			</div>
+			<div class="works__wrapper">
+				<a href="https://badyandriy.github.io/tajam/" class="works__item shadow">
+					<div class="works__img">
+						<img src="assets/img/tajem.jpg" alt="error">
+						<div class="works__shadow"></div>
+					</div>
+				</a>
+			</div>
+		</div>
+	</div>
+
+	<script src="assets/js/Jquery.js"></script>
+	<script src="assets/js/index.js"></script>
+</body>
+</html>
